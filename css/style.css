@@ -1,0 +1,21 @@
+body, h1, h2, p, ul, li a{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #222222
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+  max-width: 100%; /*Para não estourar no layout responsivo*/ /*Mantém o máximo do tamanho dela*/
+}
+*{
+  box-sizing: border-box; /*seleciona todas as tags e limita o seu tamanho ao width dado a elas*/
+}
