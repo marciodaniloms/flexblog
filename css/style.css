@@ -130,7 +130,7 @@ img{
 }
 .produtos-container{
   display: flex;
-  display: wrap;
+  flex: wrap;
   align-items: flex-end;
 }
 .produtos-item{
@@ -152,3 +152,5 @@ img{
 .blue{
   border-top: 8px solid #66d9eb;
 }
+
+
